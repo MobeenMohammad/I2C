@@ -37,3 +37,5 @@ It demonstrates reliable serial communication between a Master and Slave (EEPROM
 - ModelSim / Vivado Simulator
 - Digital Design & FSM Concepts
 - I2C Protocol
+# Project Files
+- 

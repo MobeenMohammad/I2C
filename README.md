@@ -21,3 +21,19 @@ It demonstrates reliable serial communication between a Master and Slave (EEPROM
   - Drives I2C signals
   - Simulates write, read, and erase operations
   - Verifies data integrity
+# Implementation & Testing
+1. Signal Generation
+- SCL generated using clock divider
+- SDA controlled via tri-state buffer
+2. Data Transfer
+- 7-bit address + R/W bit
+- Serial data shifted MSB → LSB
+3. EEPROM Operation
+- Write → Store data
+- Read → Retrieve stored data
+- Erase → Overwrite with 0x00
+# Tools & Technologies
+- Verilog HDL
+- ModelSim / Vivado Simulator
+- Digital Design & FSM Concepts
+- I2C Protocol

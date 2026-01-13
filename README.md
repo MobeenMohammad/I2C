@@ -6,3 +6,18 @@ It demonstrates reliable serial communication between a Master and Slave (EEPROM
 - Supports Read, Write, and Erase operations
 - Verified through testbench and waveform analysis
 - Simulates real-time EEPROM communication over I2C
+# Functional Description
+- The I2C Master generates:
+  - Start & Stop conditions
+  - Clock (SCL)
+  - Address & data transmission
+  - ACK/NACK detection
+- The I2C Slave (EEPROM):
+  - Detects address
+  - Sends acknowledgment
+  - Stores data in memory
+  - Supports read/write operations
+- The Testbench:
+  - Drives I2C signals
+  - Simulates write, read, and erase operations
+  - Verifies data integrity

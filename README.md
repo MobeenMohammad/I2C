@@ -38,4 +38,10 @@ It demonstrates reliable serial communication between a Master and Slave (EEPROM
 - Digital Design & FSM Concepts
 - I2C Protocol
 # Project Files
-- 
+- I2C_master.v
+- I2c_slave.v
+- I2C_top.v
+- I2C_top_tb.v
+# Conclusion
+This project successfully demonstrates I2C communication with EEPROM using Verilog.
+It provides a strong foundation for real-world memory interfacing and embedded communication systems.
